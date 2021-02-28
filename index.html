@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>IT Worker | responsive portfolio template</title>
+    <title>Mehyar Belal | Frontend- Developer.</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -54,11 +54,11 @@
       </nav>
     </header>
     <!-- Intro Image-->
-    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+    <section id="intro" style="background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80) center center no-repeat; background-size: cover;" class="intro-section pb-2">
       <div class="container text-center">
         <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="130"></div>
         <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello!</h1>
-        <p data-animate="slideInUp" class="h3 text-shadow text-400">I'm Mehyar Belal, I am a </p>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">I'm Mehyar Belal, I am a <span class="animate"> </span></p>
       </div>
     </section>
     <!-- About-->
@@ -493,6 +493,8 @@
       </div>
     </footer>
     <!-- JavaScript files-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
@@ -501,5 +503,27 @@
     <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
     <script src="js/front.js"></script>
+
+
+
+<script>
+
+var typed = new Typed('.animate',{
+  strings: [
+    "FrontEnd Developer",
+    "Designer",
+    "Programmer",
+    "Front end Developer"
+
+  ],
+  typeSpeed: 100,
+  backspeed: 100,
+  loop:true
+
+});
+
+
+</script>
+
   </body>
 </html>
