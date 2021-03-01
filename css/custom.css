@@ -34,3 +34,18 @@
   line-height: 22px;
   padding-left: 15px;
 }
+
+.grid {
+  padding: 0.7rem 0px;
+}
+.grid img {
+  padding: 0.5rem 0px;
+  width: 55px;
+  height: 73px;
+  transition: all 0.2s ease-in-out;
+  filter: grayscale(100);
+}
+
+.grid img:hover {
+  filter: grayscale(0);
+}
