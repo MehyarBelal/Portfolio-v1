@@ -6,7 +6,7 @@
 
 .links i {
   font-size: 2rem;
-  margin-left: 1rem;
+  margin-right: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -20,6 +20,13 @@
   color: #24292e;
 }
 
+.intro p {
+  font-size: 2.5rem;
+}
+
+.intro h1 {
+  font-size: 3.5rem;
+}
 .fa-twitter:hover {
   cursor: pointer;
   color: #00a2f3;
@@ -83,4 +90,10 @@
   background-color: white;
   color: black;
   text-decoration: none;
+}
+
+.bio {
+  font-size: 1.5rem;
+
+  padding-bottom: 1rem;
 }
