@@ -27,6 +27,7 @@
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png">
 
+    <link rel="stylesheet" href="spinkit.min.css">
     <link rel="stylesheet" href="css/style.sea.css">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -52,8 +53,21 @@
           </div>
         </div>
       </nav>
+
+     
     </header>
     <!-- Intro Image-->
+    
+<div class="loader">
+  <div class="spinner">
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+  </div>
+</div>
+
+
+
     <section id="intro" style="background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80) center center no-repeat; background-size: cover;" class="intro-section pb-2">
       <div class="container text-center intro">
         <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello!</h1>
@@ -298,7 +312,7 @@
             <li class="active"><a href="#" data-filter="all">All</a></li>
             <li><a href="#" data-filter="webdesign">Web app</a></li>
             <li><a href="#" data-filter="seo">SEO</a></li>
-            <li><a href="#" data-filter="marketing">Marketing</a></li>
+            <li><a href="#" data-filter="marketing">Web Design</a></li>
             <li><a href="#" data-filter="other">Other</a></li>
           </ul>
           <div id="detail">
@@ -323,10 +337,10 @@
                             <p>Browse your favorite movies, Read Their Reviews and watch trailers. </p>
                           </div>
                         </div></a>
-                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                      <div data-images="https://github.com/MehyarBelal/Movie-Time/raw/master/images/screenshot.JPG,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
                         <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
                         <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                        <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/MehyarBelal/Movie-Time" class="btn btn-outline-primary"><i class="fa fa-github"></i> Source Code</a></p>
                       </div>
                     </div>
                   </div>
@@ -554,7 +568,15 @@ var typed = new Typed('.animate',{
 });
 
 
+let loader = document.querySelector('.loader');
+
+setTimeout(function(){
+
+  loader.classList.add('fade')
+},1100)
 </script>
+
+
 
   </body>
 </html>
