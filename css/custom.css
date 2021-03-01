@@ -24,3 +24,8 @@
   cursor: pointer;
   color: #00a2f3;
 }
+
+.links a {
+  list-style: none;
+  color: #3b3b3b;
+}
