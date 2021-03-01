@@ -49,3 +49,33 @@
 .grid img:hover {
   filter: grayscale(0);
 }
+
+.resume {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume a {
+  text-decoration: none;
+  padding: 0.6rem 0.5rem;
+  width: 10rem;
+  margin: 0 auto;
+  background: none;
+  color: #ddd;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid white;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.resume a:hover {
+  width: 12rem;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
