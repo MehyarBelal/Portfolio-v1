@@ -1,7 +1,11 @@
 /* your styles go here */
 
-
-.animate{
-    color: #047BFE;
+.animate {
+  color: #047bfe;
 }
 
+.links i {
+  font-size: 2rem;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
