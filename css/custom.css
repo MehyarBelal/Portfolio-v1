@@ -169,3 +169,8 @@
   position: absolute;
   z-index: 1000011144444;
 }
+
+.profile img {
+  height: 400px;
+  filter: grayscale(0);
+}
