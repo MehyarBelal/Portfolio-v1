@@ -172,5 +172,6 @@
 
 .profile img {
   height: 400px;
+  width: 400px;
   filter: grayscale(0);
 }
