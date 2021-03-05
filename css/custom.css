@@ -159,14 +159,15 @@ html {
   filter: grayscale(0);
 }
 
-.down {
+.down i {
   color: #aaaaaa;
-  font-size: 3rem;
-  -webkit-animation: bounce 1s infinite;
+  font-size: 4rem;
+  transition: all 0.2s ease-in-out;
 }
 
 .down:hover {
   cursor: pointer;
+  color: white;
 }
 
 .intro {
