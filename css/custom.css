@@ -84,6 +84,10 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .resume a:hover {
   width: 12rem;
   border-radius: 2px;
@@ -175,4 +179,13 @@
   height: 400px;
   width: 400px;
   filter: grayscale(0);
+}
+
+.down i {
+  color: white;
+  font-size: 2rem;
+}
+
+.down:hover {
+  cursor: pointer;
 }
