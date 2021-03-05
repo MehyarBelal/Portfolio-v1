@@ -181,7 +181,7 @@ html {
   filter: grayscale(0);
 }
 
-.down i {
+.down {
   color: white;
   font-size: 2rem;
   -webkit-animation: bounce 1s infinite;
@@ -205,4 +205,8 @@ html {
   100% {
     bottom: 0;
   }
+}
+
+.intro {
+  padding: 1rem;
 }
