@@ -1,5 +1,7 @@
 /* your styles go here */
-
+* {
+  font-family: "Roboto", sans-serif;
+}
 .animate {
   color: #047bfe;
 }
