@@ -42,7 +42,7 @@
     <!-- Reference item-->
     <!-- navbar-->
     <header class="header">
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar navy  navbar-expand-lg fixed-top">
         <div class="container"><a href="#intro" class="navbar-brand scrollTo"> <img width="35px"src="https://images.vexels.com/media/users/3/137683/isolated/preview/06933f45e6989041c0fa14b58bfe1e1a-geometric-hexagonal-abstract-logo-by-vexels.png" alt=""> Mehyar Belal </a>
           <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
           <div id="navbarcollapse" class="collapse navbar-collapse">
@@ -480,7 +480,6 @@
     <script src="js/front.js"></script>
 
 
-
 <script>
 
 var typed = new Typed('.animate',{
@@ -509,7 +508,9 @@ setTimeout(function(){
 },1100)
 
 
-
+$(window).scroll(function(){
+ $('nav').toggleClass('scrolled', $(this).scrollTop() > 1080);
+ });
 
 </script>
 
