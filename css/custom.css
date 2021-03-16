@@ -211,20 +211,32 @@ html {
 }
 
 .progress-title{
-  color: #474747
+  color: #474747;
+
 }
 
 .degree{
-  font-size: 2em;
+  font-size: 1em;
+  color: black;
+  font-weight: 700;
   
 }
 
 .uni{
   list-style: none;
   text-align: left;
+  height: 24rem;
 }
 
 .uni li{
   padding-bottom: 10px;
   font-weight: 500 !important;
 }
+
+.edu{
+  padding-bottom: 2rem;
+}
+#customers{
+  height: 120vh;
+}
+
