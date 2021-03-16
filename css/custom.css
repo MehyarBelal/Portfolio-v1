@@ -206,3 +206,8 @@ html {
   background: rgb(255, 255, 255) !important;
   color: #777777 ;
 }
+
+
+.progress{
+  border-radius: 50px !important;
+}
