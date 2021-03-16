@@ -192,10 +192,13 @@ html {
   color: #007bff;
 }
 
-
+.navy a{
+  color: white !important;
+}
 .navy {
   background:transparent !important;
   transition:0.75s ease;
+
 
 
 }
