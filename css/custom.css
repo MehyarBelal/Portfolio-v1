@@ -226,6 +226,8 @@ html {
   list-style: none;
   text-align: left;
   height: 24rem;
+ 
+  
 }
 
 .uni li{
@@ -236,7 +238,6 @@ html {
 .edu{
   padding-bottom: 2rem;
 }
-#customers{
-  height: 100vh;
-}
+
+
 
