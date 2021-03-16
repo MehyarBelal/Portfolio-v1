@@ -192,9 +192,7 @@ html {
   color: #007bff;
 }
 
-.navy a{
-  color: white !important;
-}
+
 .navy {
   background:transparent !important;
   transition:0.75s ease;
@@ -210,4 +208,13 @@ html {
 
 .progress{
   border-radius: 50px !important;
+}
+
+.progress-title{
+  color: #474747
+}
+
+.degree{
+  font-size: 1.1em;
+  
 }
