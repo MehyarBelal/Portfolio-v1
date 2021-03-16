@@ -218,3 +218,8 @@ html {
   font-size: 1.7em;
   
 }
+
+.uni{
+  list-style: none;
+  text-align: left;
+}
