@@ -215,11 +215,15 @@ html {
 }
 
 .degree{
-  font-size: 1.7em;
+  font-size: 1.2em;
   
 }
 
 .uni{
   list-style: none;
   text-align: left;
+}
+
+.uni li{
+  padding-bottom: 10px;
 }
