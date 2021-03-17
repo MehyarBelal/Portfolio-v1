@@ -226,6 +226,7 @@ html {
   list-style: none;
   text-align: left;
   height: 24rem;
+
  
   
 }
@@ -246,10 +247,11 @@ html {
   background-color: white;
   padding: .5rem;
 
-  
 
   
 }
+
+
 
 #customers{
   background-color: #00a2f3;
