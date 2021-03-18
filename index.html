@@ -544,7 +544,9 @@
             <p>© 2021 Mehyar Belal. All rights reserved.</p>
           </div>
           <div class="col-12 mt-4">
-            <p class="template-bootstrapious"> <a href='https://bootstrapious.com/p/bootstrap-carousel'></a> & <a href="https://fity.cz/ostrava">Fity</a></p>
+            <p class="template-bootstrapious"> <a href='https://bootstrapious.com/p/bootstrap-carousel'></a> <i class="up fas fa-arrow-up"></i>
+
+
             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
           </div>
         </div>
@@ -597,6 +599,11 @@ $(window).scroll(function(){
 
 
  });
+
+ $('.up').click(function(){
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+ })
 
 </script>
 
