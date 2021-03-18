@@ -23,7 +23,7 @@
 }
 
 .intro p {
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .intro h1 {
@@ -188,9 +188,7 @@ html {
   padding: 1rem;
 }
 
-.date {
-  color: #007bff;
-}
+
 
 .navy {
   transition: 0.75s ease;
@@ -234,7 +232,7 @@ html {
 }
 
 #customers {
-  background-color: #00a2f3;
+  background-color: #1e90ff;
 }
 
 .edu {
@@ -305,4 +303,8 @@ background-color: #24292e  !important;
 .services i:hover{
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
+}
+
+.h3{
+  font-size: 3rem;
 }
