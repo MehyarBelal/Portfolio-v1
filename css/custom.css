@@ -239,10 +239,11 @@ html {
 }
 
 .uni-cards {
-  height: 60vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .block {
