@@ -192,71 +192,67 @@ html {
   color: #007bff;
 }
 
-
 .navy {
-  background:transparent !important;
-  transition:0.75s ease;
-
-
-
+  background: transparent !important;
+  transition: 0.75s ease;
 }
 .navy.scrolled {
   background: rgb(255, 255, 255) !important;
-  color: #777777 ;
+  color: #777777;
 }
 
-
-.progress{
+.progress {
   border-radius: 50px !important;
 }
 
-.progress-title{
+.progress-title {
   color: #474747;
-
 }
 
-.degree{
+.degree {
   font-size: 1em;
   color: black;
   font-weight: 700;
-  
 }
 
-.uni{
+.uni {
   list-style: none;
   text-align: left;
   height: 24rem;
-
- 
-  
 }
 
-.uni li{
+.uni li {
   padding-bottom: 10px;
   font-weight: 500 !important;
 }
 
-.edu{
+.edu {
   padding-bottom: 1.5rem;
-  
 }
 
-
-
-.blob{
+.blob {
   background-color: white;
-  padding: .5rem;
-
-
-  
+  padding: 0.5rem;
 }
 
-
-
-#customers{
+#customers {
   background-color: #00a2f3;
 }
 
-.edu{
-  color: white !important
+.edu {
+  color: white !important;
+}
+
+.uni-cards {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+.block {
+  margin: 10px;
+  border: 1px solid white;
+}
+.uni-cards {
+  display: flex;
 }
