@@ -196,9 +196,13 @@ html {
   background: transparent !important;
   transition: 0.75s ease;
 }
+
 .navy.scrolled {
   background: rgb(255, 255, 255) !important;
-  color: #777777;
+}
+
+.white {
+  color: white !important;
 }
 
 .progress {
