@@ -257,6 +257,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  background-color: white;
 }
 .uni-cards {
   display: flex;
