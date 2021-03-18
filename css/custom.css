@@ -211,6 +211,7 @@ html {
 
 .degree {
   font-size: 1em;
+  padding-top: 0.5rem;
   color: black;
   font-weight: 700;
 }
@@ -218,7 +219,6 @@ html {
 .uni {
   list-style: none;
   text-align: left;
-  height: 24rem;
 }
 
 .uni li {
@@ -228,11 +228,6 @@ html {
 
 .edu {
   padding-bottom: 1.5rem;
-}
-
-.blob {
-  background-color: white;
-  padding: 0.5rem;
 }
 
 #customers {
@@ -264,7 +259,7 @@ html {
 }
 
 .block img {
-  margin-left: 35px;
+  margin: 0 auto;
 }
 .degree {
   margin-left: 35px;
