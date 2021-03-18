@@ -262,7 +262,8 @@ html {
 
 .block img {
   margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 .degree {
   margin-left: 35px;
