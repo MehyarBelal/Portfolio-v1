@@ -192,71 +192,94 @@ html {
   color: #007bff;
 }
 
-
 .navy {
-  background:transparent !important;
-  transition:0.75s ease;
-
-
-
+  transition: 0.75s ease;
 }
+
 .navy.scrolled {
   background: rgb(255, 255, 255) !important;
-  color: #777777 ;
 }
 
+.white {
+  color: white !important;
+}
 
-.progress{
+.progress {
   border-radius: 50px !important;
 }
 
-.progress-title{
+.progress-title {
   color: #474747;
-
 }
 
-.degree{
+.degree {
   font-size: 1em;
+  padding-top: 0.5rem;
   color: black;
   font-weight: 700;
-  
 }
 
-.uni{
+.uni {
   list-style: none;
   text-align: left;
-  height: 24rem;
-
- 
-  
 }
 
-.uni li{
+.uni li {
   padding-bottom: 10px;
   font-weight: 500 !important;
 }
 
-.edu{
+.edu {
   padding-bottom: 1.5rem;
-  
 }
 
-
-
-.blob{
-  background-color: white;
-  padding: .5rem;
-
-
-  
-}
-
-
-
-#customers{
+#customers {
   background-color: #00a2f3;
 }
 
-.edu{
-  color: white !important
+.edu {
+  color: white !important;
+}
+
+.uni-cards {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  height: 50vh;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+  background-color: white;
+}
+.uni-cards {
+  display: flex;
+}
+
+.block img {
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.degree {
+  margin-left: 35px;
+}
+
+.up {
+  font-size: 2.2rem;
+  transition: 0.1s ease-in-out;
+}
+
+.up:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
