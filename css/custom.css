@@ -330,3 +330,7 @@ nav.navbar a.nav-link.active,
 nav.navbar a.nav-link:hover {
   border-top-color: #00a2f3 !important;
 }
+
+.tog {
+  color: white !important;
+}
