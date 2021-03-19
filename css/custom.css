@@ -193,18 +193,24 @@ html {
   padding: 1rem;
 }
 
+.navy a {
+  color: white !important;
+}
 .navy {
   transition: 0.75s ease;
   background: transparent !important;
-  color: white !important;
+
   border: none !important;
 }
 
 .navy.scrolled {
-  background: rgb(255, 255, 255) !important;
+  background: rgb(0, 0, 0) !important;
   box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1) !important;
 }
 
+.changeText {
+  color: #3b3b3b !important;
+}
 .white {
   color: white !important;
 }

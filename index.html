@@ -600,6 +600,8 @@ $('.loader').fade();
 $(window).scroll(function(){
  $('nav').toggleClass('scrolled', $(this).scrollTop() > 700);
 
+ 
+ $('.navy a').toggleClass('changeText', $(this).scrollTop() > 700);
 
 
  });
