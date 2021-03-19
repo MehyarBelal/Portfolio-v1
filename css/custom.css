@@ -23,7 +23,7 @@
 }
 
 .intro p {
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .intro h1 {
@@ -188,9 +188,7 @@ html {
   padding: 1rem;
 }
 
-.date {
-  color: #007bff;
-}
+
 
 .navy {
   transition: 0.75s ease;
@@ -234,7 +232,7 @@ html {
 }
 
 #customers {
-  background-color: #00a2f3;
+  background-color: #1e90ff;
 }
 
 .edu {
@@ -250,7 +248,8 @@ html {
 }
 
 .block {
-  height: 50vh;
+  height: 100%;
+  width: 80%;
   margin-left: 30px;
   margin-top: 10px;
   border: 1px solid white;
@@ -267,8 +266,8 @@ html {
 
 .block img {
   margin: 0 auto;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .degree {
   margin-left: 35px;
@@ -282,4 +281,30 @@ html {
 .up:hover {
   opacity: 0.7;
   cursor: pointer;
+}
+
+.contactbtn{
+  background: white !important;
+  color: black  !important;
+  border-radius: 5px !important;
+}
+
+.contactbtn:hover{
+color:#fff !important;
+background-color: #24292e  !important;
+}
+
+.services i {
+  
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition:         transform .8s ease-in-out;
+}
+
+.services i:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.h3{
+  font-size: 3rem;
 }
