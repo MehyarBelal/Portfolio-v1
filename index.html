@@ -43,8 +43,8 @@
     <!-- navbar-->
     <header class="header">
       <nav class="navbar navy white navbar-expand-lg fixed-top">
-        <div class="container"><a href="#intro" class="navbar-brand scrollTo"> <img width="35px"src="https://images.vexels.com/media/users/3/137683/isolated/preview/06933f45e6989041c0fa14b58bfe1e1a-geometric-hexagonal-abstract-logo-by-vexels.png" alt=""> Mehyar Belal </a>
-          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo"> Mehyar Belal </a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars tog"></span></button>
           <div id="navbarcollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
@@ -74,7 +74,7 @@
 
 
 
-    <section id="intro" style="background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2089&q=80) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+    <section id="intro" style="background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1512273222628-4daea6e55abb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) center center no-repeat; background-size: cover;" class="intro-section pb-2">
       <div class="container text-center intro">
         <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello!</h1>
         <p data-animate="slideInUp" class="h3 text-shadow text-400">I'm Mehyar Belal, I am a <span class="animate"> </span></p>
@@ -338,9 +338,9 @@
           <!-- Reference detail-->
           <div id="references-masonry" data-animate="fadeInUp">
             <div class="row">
-                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
-                    <div class="reference"><a href="#"><img class="movie-time" src="./img/movie time.JPG" alt="" class="img-fluid">
-                        <div class="overlay">
+                  <div data-category="webdesign" class="reference-item col-lg-4 col-md-6">
+                    <div class="reference"><a href="#"><img class="movie-time " src="./img/movie time.JPG" alt="" class="img-fluid">
+                        <div class="overlay shadow">
                           <div class="inner">
                             <h3 class="h4 reference-title">Movie Time</h3>
                             <p>Browse your favorite movies, Read Their Reviews and watch trailers. </p>
@@ -354,7 +354,7 @@
                     </div>
                   </div>
                   
-                  <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                  <div data-category="marketing" class="reference-item col-lg-4 col-md-6">
                     <div class="reference"><a href="#"><img src="img/pizza site.JPG" alt="" class="img-fluid">
                         <div class="overlay">
                           <div class="inner">
@@ -370,7 +370,7 @@
                     </div>
                   </div>
                  
-                  <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                  <div data-category="marketing" class="reference-item col-lg-4 col-md-6">
                     <div class="reference"><a href="#"><img src="img/jordan site.JPG" alt="" class="img-fluid">
                         <div class="overlay">
                           <div class="inner">
@@ -410,7 +410,7 @@
   
   <div class="uni-cards row">
 
-<div class="block col-md-3 shadow">
+<div class="block col-lg-3 shadow">
   <img  height="50px" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/5/51/RMIT_University_Logo.svg" alt="">
 
   <p class="degree">Assoiate Degree Of Information Technoogy</p>
@@ -436,7 +436,7 @@
 </div>
 
 
-<div class="block col-md-3 shadow">
+<div class="block col-lg-3 shadow">
 
   <img  height="50px" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/5/51/RMIT_University_Logo.svg" alt="">
 
@@ -461,13 +461,12 @@
 
 </div>
 
+<div class="block col-lg-3 shadow">
 
-<div class="block col-md-3 shadow">
+  <img  height="50px" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/5/51/RMIT_University_Logo.svg" alt="">
 
-  <img  height="50px" src="https://upload.wikimedia.org/wikipedia/commons/5/51/RMIT_University_Logo.svg" alt="">
-
-  <p class=" degree">Diploma Of Information Technoogy</p>
-  
+  <p class="degree">Bachelor Of Information Technoogy</p>
+ 
 
   <ul class="uni">
 
@@ -482,7 +481,7 @@
     </li>
     <li>              - Configure CISCO equipment in Simulation Tool: Packet Tracer
     </li>
-
+  
     <li>              - Contribute to copyright, ethics and privacy in an ICT environment</p>
     </li>
   </ul>
@@ -490,13 +489,10 @@
 </div>
 
 
- </div>
 
 
 
 
-</div>
-           </div>
        
     </section>
     <!-- Contact-->
@@ -600,6 +596,8 @@ $('.loader').fade();
 $(window).scroll(function(){
  $('nav').toggleClass('scrolled', $(this).scrollTop() > 700);
 
+ 
+ $('.navy a').toggleClass('changeText', $(this).scrollTop() > 700);
 
 
  });

@@ -67,6 +67,11 @@
 .resume {
   display: flex;
   flex-direction: column;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100% !important;
 }
 
 .resume a {
@@ -188,16 +193,24 @@ html {
   padding: 1rem;
 }
 
-
-
+.navy a {
+  color: white !important;
+}
 .navy {
   transition: 0.75s ease;
+  background: transparent !important;
+
+  border: none !important;
 }
 
 .navy.scrolled {
-  background: rgb(255, 255, 255) !important;
+  background: rgb(0, 0, 0) !important;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1) !important;
 }
 
+.changeText {
+  color: #3b3b3b !important;
+}
 .white {
   color: white !important;
 }
@@ -248,11 +261,13 @@ html {
 }
 
 .block {
-  height: 80vh;
+
+  height: 100%;
+
   width: 80%;
   margin-left: 30px;
   margin-top: 10px;
-  border: 1px solid white;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -283,28 +298,41 @@ html {
   cursor: pointer;
 }
 
-.contactbtn{
+.contactbtn {
   background: white !important;
-  color: black  !important;
+  color: black !important;
   border-radius: 5px !important;
 }
 
-.contactbtn:hover{
-color:#fff !important;
-background-color: #24292e  !important;
+.contactbtn:hover {
+  color: #fff !important;
+  background-color: #24292e !important;
 }
 
 .services i {
-  
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-  transition:         transform .8s ease-in-out;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
-.services i:hover{
+.services i:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-.h3{
+.h3 {
   font-size: 3rem;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+nav.navbar a.nav-link.active,
+nav.navbar a.nav-link:hover {
+  border-top-color: #00a2f3 !important;
+}
+
+.tog {
+  color: white !important;
 }
