@@ -65,6 +65,7 @@
 }
 
 .resume {
+
   display: flex;
   flex-direction: column;
   background-attachment: fixed !important;

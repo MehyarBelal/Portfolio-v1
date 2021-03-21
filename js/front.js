@@ -103,7 +103,16 @@ $(function () {
         $('.reference-item').each(function () {
 
             if ($(this).data('category') === categoryToFilter || categoryToFilter === 'all') {
-                $(this).show();
+                $(this).show()
+
+                let thiss = $(this);
+                gsap.from(thiss, {
+                    duration: .5,
+                    y: 50,
+                    opacity:0
+                })
+
+                
             } else {
                 $(this).hide();
             }
