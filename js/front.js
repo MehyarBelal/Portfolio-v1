@@ -134,6 +134,9 @@ $(function () {
         $('#detail-title').text(title);
         $('#detail-content').html(description);
 
+
+    
+
         var images = $(this).siblings('.reference-description').data('images').split(',');
         if (images.length > 0) {
             sliderContent = '';
