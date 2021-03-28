@@ -1,6 +1,6 @@
 /* your styles go here */
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .animate {
   color: #ffffff;
@@ -321,7 +321,18 @@ html {
 }
 
 .h3 {
-  font-size: 2.6rem;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.animate{
+  color: #ddd;
+  margin: 0 0 25px;
+    font-size: 20px;
+    line-height: 1.7;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
 }
 
 body,
