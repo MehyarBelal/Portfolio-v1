@@ -267,7 +267,7 @@ color: black !important;
 .block {
   text-align: center !important;
 
-  padding: 2em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
