@@ -317,6 +317,10 @@ margin: 0 !important;
 }
 
 .services i {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background-color: black;
   -webkit-transition: -webkit-transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out;
 }
@@ -378,4 +382,5 @@ nav.navbar a.nav-link:hover {
 
 .description{
   font-size: 18px !important;
+  text-align: center !important;
 }
