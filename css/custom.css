@@ -1,6 +1,6 @@
 /* your styles go here */
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .animate {
   color: #ffffff;
@@ -22,13 +22,6 @@
   color: #24292e;
 }
 
-.intro p {
-  font-size: 4rem;
-}
-
-.intro h1 {
-  font-size: 4.5rem;
-}
 .fa-twitter:hover {
   cursor: pointer;
   color: #00a2f3;
@@ -181,7 +174,15 @@ html {
 .down i {
   color: #aaaaaa;
   font-size: 4rem;
+  margin-top: 8rem;
   transition: all 0.2s ease-in-out;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .down:hover {
@@ -318,19 +319,22 @@ html {
   transform: rotate(360deg);
 }
 
-.h3 {
+.h33 {
+  color: white;
+  margin: 0 !important;
   font-size: 60px;
-  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  font-weight: 100 !important;
   letter-spacing: 3px;
 }
 
-.animate{
+.animate {
   color: #ddd;
   margin: 0 0 25px;
-    font-size: 20px;
-    line-height: 1.7;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 body,
