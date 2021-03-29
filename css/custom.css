@@ -243,12 +243,18 @@ color: black !important;
 }
 
 .uni {
+  margin: auto 0 !important;
   list-style: none;
-  text-align: left;
+  text-align:  center;
+}
+
+.uni ul{
+  text-align: center !important;
+  margin: 0 auto !important;
 }
 
 .uni li {
-  padding-bottom: 10px;
+margin: 0 !important;
   font-weight: 500 !important;
 }
 
@@ -259,6 +265,7 @@ color: black !important;
 #customers {
   background-color: #1e90ff;
 }
+
 
 .edu {
   color: white !important;
@@ -277,6 +284,7 @@ color: black !important;
   margin-bottom: 1rem;
 }
 .uni-cards {
+ 
   height: 100%;
   display: flex;
   justify-content: space-evenly;
