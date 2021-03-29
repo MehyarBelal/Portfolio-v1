@@ -354,3 +354,16 @@ nav.navbar a.nav-link:hover {
 .tog {
   color: white !important;
 }
+
+
+
+.vist-site-btn{
+  text-align: center;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 3px solid #1e90ff;
+    outline: none;
+    color: white;
+    padding: .5rem 2rem;
+
+}
