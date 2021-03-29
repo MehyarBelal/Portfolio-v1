@@ -258,15 +258,9 @@ html {
   color: white !important;
 }
 
-.uni-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .block {
   margin-left: 30px;
-
+  padding: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -282,8 +276,6 @@ html {
 
 .block img {
   margin: 0 auto;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
 }
 .degree {
   margin-left: 35px;
