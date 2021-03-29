@@ -259,19 +259,13 @@ html {
 }
 
 .uni-cards {
-  height: 100%;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .block {
-  height: 100%;
-
-  width: 80%;
   margin-left: 30px;
-  margin-top: 10px;
 
   display: flex;
   flex-direction: column;
@@ -281,7 +275,9 @@ html {
   background-color: white;
 }
 .uni-cards {
+  height: 100%;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .block img {
