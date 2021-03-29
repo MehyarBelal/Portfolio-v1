@@ -231,7 +231,7 @@ html {
 
 .degree {
   font-size: 1em;
-  padding-top: 0.5rem;
+
   color: black;
   font-weight: 700;
 }
@@ -259,6 +259,7 @@ html {
 }
 
 .block {
+  text-align: center !important;
   margin-left: 30px;
   padding: 2em;
   display: flex;
@@ -276,9 +277,7 @@ html {
 
 .block img {
   margin: 0 auto;
-}
-.degree {
-  margin-left: 35px;
+  margin-bottom: 1.5rem;
 }
 
 .up {
