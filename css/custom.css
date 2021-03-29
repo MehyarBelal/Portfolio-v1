@@ -37,8 +37,7 @@
   color: #3b3b3b;
 }
 
-.projects {
-}
+
 .info p {
   line-height: 22px;
   padding-left: 15px;
@@ -103,9 +102,7 @@ html {
   text-decoration: none;
 }
 
-.projects {
-  padding: 0rem 10rem;
-}
+
 .bio {
   font-size: 1.5rem;
 
@@ -113,8 +110,10 @@ html {
 }
 
 .reference img {
-  height: 20rem;
-  width: 100%;
+
+  border-radius: 10px;
+  height: 15rem;
+  width: 30rem !important;
   filter: blur(0) !important;
 }
 
