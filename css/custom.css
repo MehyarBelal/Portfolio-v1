@@ -65,7 +65,6 @@
 }
 
 .resume {
-
   display: flex;
   flex-direction: column;
   background-attachment: fixed !important;
@@ -262,7 +261,6 @@ html {
 }
 
 .block {
-
   height: 100%;
 
   width: 80%;
