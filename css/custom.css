@@ -371,3 +371,8 @@ nav.navbar a.nav-link:hover {
   font-size: 15px !important;
   text-align: center !important;
 }
+
+.progress-title2 {
+  float: right;
+  padding-left: 10px;
+}
