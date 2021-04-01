@@ -6,6 +6,11 @@
   color: #ffffff;
 }
 
+.para {
+  text-align: center;
+  font-size: 1.2em;
+}
+
 .links i {
   font-size: 2rem;
   margin-right: 1rem;
@@ -387,6 +392,7 @@ nav.navbar a.nav-link:hover {
   text-decoration: none;
   color: #fff;
 }
+
 .arrow i {
   cursor: pointer;
   animation: animate 2s linear infinite;
