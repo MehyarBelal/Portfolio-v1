@@ -194,7 +194,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center !important;
+  justify-content: flex-end !important;
 }
 
 .down:hover {
