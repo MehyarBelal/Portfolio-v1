@@ -433,3 +433,14 @@ nav.navbar a.nav-link:hover {
     display: none;
   }
 }
+
+.instagram {
+  background-color: #1d75bb !important;
+}
+
+.facebook {
+  background-color: #007bff !important;
+}
+.btns:hover {
+  color: white;
+}
