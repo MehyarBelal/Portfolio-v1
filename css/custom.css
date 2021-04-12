@@ -45,6 +45,11 @@
   animation: animateHeart 1.2s infinite;
 }
 
+.links i:hover{
+  cursor: pointer;
+  opacity: .7;
+}
+
 .fa-linkedin {
   cursor: pointer;
   color: #0a66c2;
