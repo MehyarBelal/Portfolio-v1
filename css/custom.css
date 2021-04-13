@@ -483,3 +483,9 @@ nav.navbar a.nav-link:hover {
 .wowy:hover {
   color: white;
 }
+
+
+.text-white{
+  color: white !important;
+
+}
