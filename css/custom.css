@@ -8,9 +8,7 @@
 
 
 
-.fa-github{
-  color: black;
-}
+
 .para {
   text-align: center;
 
@@ -58,7 +56,7 @@
 
 .fa-github {
   cursor: pointer;
-  color: #24292e;
+
   transform: scale(1.1);
 }
 
