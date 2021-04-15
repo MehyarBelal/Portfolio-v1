@@ -487,3 +487,15 @@ nav.navbar a.nav-link:hover {
   color: white !important;
 
 }
+
+.stack{
+  display:flex;
+  justify-content: center;
+}
+
+.stack-card{
+  margin-left: 20px;
+  background-color: #007bff;
+  padding: .2em 1em;
+  color: #ffffff;
+}
