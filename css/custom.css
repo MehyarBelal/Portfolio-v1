@@ -88,7 +88,7 @@
   transition: transform 0.8s ease-in-out;
   padding: 0.5rem 0px;
   width: 50px;
-  height: 70px;
+  height: 7px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -491,10 +491,10 @@ nav.navbar a.nav-link:hover {
 
 .stack-card {
   margin-left: 20px;
-  background-color: #007bff;
+  background-color: #000000;
   padding: 0.2em 1em;
   color: #ffffff;
-}
+  border-radius: 5px;;
 
 .tooly {
   background-color: transparent !important;
