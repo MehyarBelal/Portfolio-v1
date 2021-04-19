@@ -240,7 +240,12 @@
           
     
           <div   class="col">
+            <button type="button" class="btn btn-secondary tooly" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
+                         
 <img src="https://bchiang7.github.io/v1/img/skills/html.png" alt="">
+              </button>
+              
+
 
           </div>
 
@@ -257,18 +262,30 @@
 
           <div class="col">
 
+            <button type="button" class="btn btn-secondary tooly" data-bs-toggle="tooltip" data-bs-placement="top" title="Javascript ES6">
+             
             <img src="https://bchiang7.github.io/v1/img/skills/js.png" alt="">
+            </button>
+            
+
           </div>
 
           <div class="col">
+<button type="button" class="btn btn-secondary tooly" data-bs-toggle="tooltip" data-bs-placement="top" title="React JS">
+  <img src="https://www.vhv.rs/dpng/d/200-2007563_react-native-logo-png-transparent-png.png" alt="">
 
-            <img src="https://www.vhv.rs/dpng/d/200-2007563_react-native-logo-png-transparent-png.png" alt="">
+</button>
+
        
           </div>
 
           <div class="col">
 
-            <img src="https://bchiang7.github.io/v1/img/skills/python.png" alt="">
+            <button type="button" class="btn btn-secondary tooly" data-bs-toggle="tooltip" data-bs-placement="top" title="Python">
+              <img src="https://bchiang7.github.io/v1/img/skills/python.png" alt="">            
+            </button>
+
+      
           </div>
         
           
@@ -733,6 +750,10 @@ $(window).scroll(function(){
   return false;
  })
 
+ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
 </script>
 
 
