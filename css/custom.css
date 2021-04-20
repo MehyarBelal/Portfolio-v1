@@ -86,13 +86,14 @@
 .grid img {
   -webkit-transition: -webkit-transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out;
-  padding: 0.5rem 0px;
-  width: 50px;
-  height: 7px;
+ 
+  width: 55px;
+  height: 55px;
   transition: all 0.4s ease-in-out;
 }
 
 .grid img:hover {
+  opacity: 1;
   filter: grayscale(0);
   transform: scale(1.2);
   -webkit-transform: rotate(360deg);
@@ -499,11 +500,9 @@ nav.navbar a.nav-link:hover {
 
 
 }
-
-
 .tooly {
   background-color: transparent !important;
   border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
+ padding: 0 !important;
+ margin: 0 !important;;
 }
