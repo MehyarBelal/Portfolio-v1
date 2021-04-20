@@ -86,7 +86,8 @@
 .grid img {
   -webkit-transition: -webkit-transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out;
- 
+ margin-top: 15px;
+ margin-bottom: 15px;
   width: 55px;
   height: 55px;
   transition: all 0.4s ease-in-out;
@@ -504,5 +505,11 @@ nav.navbar a.nav-link:hover {
   background-color: transparent !important;
   border: none !important;
  padding: 0 !important;
- margin: 0 !important;;
+ margin: 0 !important;
+ outline: none;
+}
+
+
+.tooly:focus{
+  outline: none !important;
 }
