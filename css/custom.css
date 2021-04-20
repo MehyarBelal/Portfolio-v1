@@ -496,9 +496,11 @@ nav.navbar a.nav-link:hover {
   color: #ffffff;
   border-radius: 5px;;
 
+
+
+}
 .tooly {
   background-color: transparent !important;
   border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
+ 
 }
