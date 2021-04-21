@@ -783,11 +783,13 @@ setTimeout(function(){
 
 
 setTimeout(function(){
-
+  let loader = document.querySelector('.loader');
   loader.classList.add('fade')
 
 $('.loader').fade();
   loader.style.display = "none";
+
+  loader.style.zIndex = "-50000000";
 
   
 },1100)
