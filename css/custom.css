@@ -195,6 +195,7 @@ html {
 
 .fade {
   opacity: 0;
+  display: none;
 }
 
 .loader {
@@ -207,7 +208,7 @@ html {
   height: 100vh !important;
   background-color: rgb(29, 29, 29);
   position: absolute;
-  z-index: 1000011144444;
+ z-index: 10000000000000000000;
 }
 
 .profile img {
