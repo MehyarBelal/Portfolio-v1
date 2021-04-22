@@ -86,8 +86,8 @@
 .grid img {
   -webkit-transition: -webkit-transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out;
- margin-top: 15px;
- margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 55px;
   height: 55px;
   transition: all 0.4s ease-in-out;
@@ -208,7 +208,7 @@ html {
   height: 100vh !important;
   background-color: rgb(29, 29, 29);
   position: absolute;
- z-index: 10000000000000000000;
+  z-index: 10000000000000000000;
 }
 
 .profile img {
@@ -497,20 +497,16 @@ nav.navbar a.nav-link:hover {
   background-color: #000000;
   padding: 0.2em 1em;
   color: #ffffff;
-  border-radius: 5px;;
-
-
-
+  border-radius: 5px;
 }
 .tooly {
   background-color: transparent !important;
   border: none !important;
- padding: 0 !important;
- margin: 0 !important;
- outline: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  outline: none;
 }
 
-
-.tooly:focus{
+.tooly:focus {
   outline: none !important;
 }
