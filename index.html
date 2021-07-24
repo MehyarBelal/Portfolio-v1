@@ -68,7 +68,7 @@
     </header>
     <!-- Intro Image-->
     
-<div class="loader">
+<div id="removeLoader" class="loader">
   <div class="loading">
     <div class="loading-bar"></div>
     <div class="loading-bar"></div>
@@ -84,9 +84,9 @@
         <p data-animate="slideInDown" class="h33 text-shadow  fadeInDown delay-05s">Hi, I'm Mehyar </p>
 
         <h1 data-animate="fadeInUp" class="text-shadow text-400"><span class="animate text-shadow  "> </span></h1>
-        <a href="#about" class="arrow ">
-          <i class="fa fa-angle-down "></i>
-       </a>
+        
+          <i id="down" class="fa fa-angle-down"></i>
+       
 
 
     
@@ -784,15 +784,26 @@ setTimeout(function(){
 
 setTimeout(function(){
   let loader = document.querySelector('.loader');
-  loader.classList.add('fade')
+ // loader.classList.add('fade')
 
+  $('#removeLoader').remove();
 $('.loader').fade();
-  loader.style.display = "none";
 
-  loader.style.zIndex = "-1";
+
+let removeLoader = document.querySelector('#removeLoader')
+  
+
 
   
 },1100)
+
+
+//down arrow functionality 
+
+$('#down').click(function(){
+  window.location = "#about";    
+
+})
 
 
 $(window).scroll(function(){
