@@ -428,6 +428,16 @@ font-size: 6em;
  
 }
 
+.MBLogo{
+letter-spacing: 3px;
+text-transform: uppercase;
+  color: white;
+margin-bottom: 5em;
+font-size: 1.5em;
+margin-left: 1em
+
+}
+
 #down:hover{
   transform: scale(1.4);
   color:#007bff
